@@ -1,0 +1,126 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2176,5): warning : The referenced project '..\..\libs\libpng-src\projects\visualc10\libpng.vcxproj' does not exist.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2176,5): warning : The referenced project '..\..\libs\zlib\projects\visualc10\zlib.vcxproj' does not exist.
+  Getting revision number from the SCM system
+  'svnversion' não é reconhecido como um comando interno
+  ou externo, um programa operável ou um arquivo em lotes.
+cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  win_vid.c
+  win_sys.c
+C:\Users\RafaTheFox\Downloads\SRB2-Public-master\src\win32\win_sys.c(182,2): warning C4996: 'GetVersionExA': was declared deprecated
+C:\Users\RafaTheFox\Downloads\SRB2-Public-master\src\win32\win_sys.c(1338,28): warning C4389: '==': signed/unsigned mismatch
+C:\Users\RafaTheFox\Downloads\SRB2-Public-master\src\win32\win_sys.c(1340,28): warning C4389: '==': signed/unsigned mismatch
+C:\Users\RafaTheFox\Downloads\SRB2-Public-master\src\win32\win_sys.c(1343,28): warning C4389: '==': signed/unsigned mismatch
+  win_snd.c
+  win_net.c
+  win_main.c
+  win_dll.c
+  win_dbg.c
+  win_cd.c
+  mid2strm.c
+  fabdxlib.c
+  z_zone.c
+  y_inter.c
+  w_wad.c
+C:\Users\RafaTheFox\Downloads\SRB2-Public-master\src\w_wad.c(901,2): warning C4013: '__snprintf' undefined; assuming extern returning int
+  v_video.c
+  tables.c
+  string.c
+  st_stuff.c
+  sounds.c
+  screen.c
+  s_sound.c
+  Generating Code...
+  Compiling...
+  r_things.c
+  r_splats.c
+  r_sky.c
+  r_segs.c
+  r_plane.c
+  r_main.c
+  r_draw.c
+  r_data.c
+  r_bsp.c
+  p_user.c
+  p_tick.c
+  p_telept.c
+  p_spec.c
+  p_sight.c
+  p_setup.c
+  p_saveg.c
+  p_polyobj.c
+  p_mobj.c
+  p_maputl.c
+  p_map.c
+  Generating Code...
+  Compiling...
+  p_lights.c
+  p_inter.c
+  p_floor.c
+  p_fab.c
+  p_enemy.c
+  p_ceilng.c
+  mserv.c
+  m_random.c
+  m_queue.c
+  m_misc.c
+  m_menu.c
+  m_fixed.c
+  m_cheat.c
+  m_bbox.c
+  m_argv.c
+  lzf.c
+  info.c
+  i_tcp.c
+C:\Users\RafaTheFox\Downloads\SRB2-Public-master\src\i_tcp.c(114,10): warning C4005: 'EWOULDBLOCK': macro redefinition
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\errno.h(129,13):
+      see previous definition of 'EWOULDBLOCK'
+  
+C:\Users\RafaTheFox\Downloads\SRB2-Public-master\src\i_tcp.c(115,10): warning C4005: 'EMSGSIZE': macro redefinition
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\errno.h(104,13):
+      see previous definition of 'EMSGSIZE'
+  
+C:\Users\RafaTheFox\Downloads\SRB2-Public-master\src\i_tcp.c(116,10): warning C4005: 'ECONNREFUSED': macro redefinition
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\errno.h(96,13):
+      see previous definition of 'ECONNREFUSED'
+  
+C:\Users\RafaTheFox\Downloads\SRB2-Public-master\src\i_tcp.c(117,10): warning C4005: 'ETIMEDOUT': macro redefinition
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\errno.h(127,13):
+      see previous definition of 'ETIMEDOUT'
+  
+  hu_stuff.c
+  hw_trick.c
+  Generating Code...
+  Compiling...
+  hw_md2.c
+  hw_main.c
+C:\Users\RafaTheFox\Downloads\SRB2-Public-master\src\hardware\hw_main.c(427,74): warning C4100: 'fogblockpoly': unreferenced formal parameter
+C:\Users\RafaTheFox\Downloads\SRB2-Public-master\src\hardware\hw_main.c(1953,60): warning C4244: '=': conversion from 'int' to 'unsigned char', possible loss of data
+C:\Users\RafaTheFox\Downloads\SRB2-Public-master\src\hardware\hw_main.c(2041,60): warning C4244: '=': conversion from 'int' to 'unsigned char', possible loss of data
+C:\Users\RafaTheFox\Downloads\SRB2-Public-master\src\hardware\hw_main.c(1878,14): warning C4101: 'r2': unreferenced local variable
+C:\Users\RafaTheFox\Downloads\SRB2-Public-master\src\hardware\hw_main.c(4034,113): warning C4244: 'function': conversion from 'int' to 'unsigned char', possible loss of data
+  hw_light.c
+  hw_draw.c
+  hw_cache.c
+  hw_bsp.c
+  hw3sound.c
+  g_input.c
+  g_game.c
+  filesrch.c
+  f_wipe.c
+  f_finale.c
+  dstrings.c
+  dehacked.c
+  d_netfil.c
+  d_netcmd.c
+  d_net.c
+  d_main.c
+  d_clisrv.c
+  console.c
+  Generating Code...
+  Compiling...
+  comptime.c
+  command.c
+  am_map.c
+  Generating Code...
+dx_error.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  Srb2win-vc10.vcxproj -> C:\Users\RafaTheFox\Downloads\SRB2-Public-master\bin\VC10\Win32\Debug\Srb2win.exe
