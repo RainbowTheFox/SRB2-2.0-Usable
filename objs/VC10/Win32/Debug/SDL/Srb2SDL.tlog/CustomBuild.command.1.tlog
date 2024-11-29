@@ -1,0 +1,6 @@
+^C:\USERS\RAFATHEFOX\DESKTOP\SRB2-PUBLIC-MASTER (1)\SRB2-PUBLIC-MASTER\SRC\TMAP.NAS
+nasm -g -o .\..\..\objs\VC10\Win32\Debug\SDL\tmap.obj -f win32 "C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\tmap.nas"
+^C:\USERS\RAFATHEFOX\DESKTOP\SRB2-PUBLIC-MASTER (1)\SRB2-PUBLIC-MASTER\SRC\TMAP_MMX.NAS
+nasm -g -o .\..\..\objs\VC10\Win32\Debug\SDL\tmap_mmx.obj -f win32 "C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\tmap_mmx.nas"
+^C:\USERS\RAFATHEFOX\DESKTOP\SRB2-PUBLIC-MASTER (1)\SRB2-PUBLIC-MASTER\SRC\TMAP_VC.NAS
+nasm -g -o .\..\..\objs\VC10\Win32\Debug\SDL\tmap_vc.obj -f win32 "C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\tmap_vc.nas"

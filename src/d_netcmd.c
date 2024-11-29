@@ -115,8 +115,8 @@ static void Fishcake_OnChange(void);
 static void Command_Playdemo_f(void);
 static void Command_Timedemo_f(void);
 static void Command_Stopdemo_f(void);
-//static void Command_StartMovie_f(void);
-//static void Command_StopMovie_f(void);
+static void Command_StartMovie_f(void);
+static void Command_StopMovie_f(void);
 static void Command_Map_f(void);
 static void Command_Teleport_f(void);
 static void Command_RTeleport_f(void);
@@ -643,8 +643,8 @@ void D_RegisterClientCommands(void)
 	COM_AddCommand("playdemo", Command_Playdemo_f);
 	COM_AddCommand("timedemo", Command_Timedemo_f);
 	COM_AddCommand("stopdemo", Command_Stopdemo_f);
-	//COM_AddCommand("startmovie", Command_StartMovie_f);
-	//COM_AddCommand("stopmovie", Command_StopMovie_f);
+	COM_AddCommand("startmovie", Command_StartMovie_f);
+	COM_AddCommand("stopmovie", Command_StopMovie_f);
 	COM_AddCommand("teleport", Command_Teleport_f);
 	COM_AddCommand("rteleport", Command_RTeleport_f);
 	COM_AddCommand("playintro", Command_Playintro_f);
@@ -1835,7 +1835,6 @@ static void Command_Stopdemo_f(void)
 	CONS_Printf("%s", text[STOPPED_DEMO]);
 }
 
-/*
 static void Command_StartMovie_f(void)
 {
 	G_MovieMode(true);
@@ -1845,7 +1844,6 @@ static void Command_StopMovie_f(void)
 {
 	G_MovieMode(false);
 }
-*/
 
 INT32 mapchangepending = 0;
 

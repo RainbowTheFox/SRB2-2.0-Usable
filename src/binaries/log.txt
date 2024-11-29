@@ -1,0 +1,100 @@
+GetArgcArgv() ...
+lpCmdLine is '"C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\bin\VC10\Win32\Debug\Srb2win.exe" '
+Hello, it's me, SRB2's Console Window
+Old STD_INPUT_HANDLE: 00000154
+New STD_INPUT_HANDLE: 0000014C
+Old STD_OUTPUT_HANDLE: 00000158
+New STD_OUTPUT_HANDLE: 00000160
+Old STD_ERROR_HANDLE: 0000015C
+New STD_ERROR_HANDLE: 00000160
+Myargc: 1
+myargv[0] : 'C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\bin\VC10\Win32\Debug\Srb2win.exe'
+I_StartupSystem() ...
+D_SRB2Main() ...
+SRB2 v2.0.7
+Z_Init: Init zone memory allocation daemon. 
+system memory 2047MB free 2047MB
+W_Init: Init WADfiles.
+I_StartupTimer...
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\srb2.srb (5421 lumps)
+Loading main config from C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\srb2.srb
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\zones.dta (907 lumps)
+Loading main config from C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\zones.dta
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\sonic.plr (185 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\tails.plr (175 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\knux.plr (171 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\rings.wpn (212 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\drill.dta (182 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\soar.dta (92 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\music.dta (166 lumps)
+===========================================================================
+                   We hope you enjoy this game as
+                     much as we did making it!
+                            ...wait. =P
+===========================================================================
+I_StartupGraphics...
+mode 640 x 480 x 32 bpp
+mode 720 x 480 x 32 bpp
+mode 720 x 576 x 32 bpp
+mode 800 x 600 x 32 bpp
+mode 1024 x 768 x 32 bpp
+mode 1152 x 864 x 32 bpp
+mode 1176 x 664 x 32 bpp
+mode 1280 x 720 x 32 bpp
+mode 1280 x 768 x 32 bpp
+mode 1280 x 800 x 32 bpp
+mode 1280 x 960 x 32 bpp
+mode 1280 x 1024 x 32 bpp
+mode 1360 x 768 x 32 bpp
+mode 1366 x 768 x 32 bpp
+mode 1600 x 900 x 32 bpp
+mode 1440 x 900 x 32 bpp
+#00: 320x200x1bpp (desc: '320x200W')
+VID_SetMode(0)
+Mode changed to 0 (320x200W)
+CPU Info: 486: 1, 586: 1, MMX: 1, 3DNow: 0, MMXExt: 0, SSE2: 1
+HU_Init: Setting up heads up display.
+Number of console HUD lines is now 5
+
+executing config.cfg
+Default resolution: 320 x 200 (8 bits)
+M_Init: Init miscellaneous info.
+R_Init: Init SRB2 refresh daemon - 
+InitTextures...
+InitSprites...
+220 sprites added from file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\srb2.srb
+221 sprites added from file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\sonic.plr
+227 sprites added from file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\rings.wpn
+228 sprites added from file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\drill.dta
+229 sprites added from file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\soar.dta
+added skin 'tails'
+added skin 'knuckles'
+
+InitColormaps...
+Number of Extra Colormaps: 9
+S_Init: Setting up sound.
+I_StartupSound:  Compacting onboard sound-memory... done
+sound initialised.
+I_InitDigMusic()
+I_InitMIDIMusic()
+MIDI product name: Microsoft MIDI Mapper
+MIDI technology: Microsoft MIDI Mapper
+MIDI caps:
+-Direct support for midiStreamOut()
+-Volume control
+ST_Init: Init status bar.
+D_CheckNetGame: Checking network game status.
+WinSock description: WinSock 2.0
+WinSock System Status: Running
+Entering main app loop...
+I_StartupKeyboard...
+I_StartupMouse...
+VID_SetMode(0)
+ERROR: Music lump read_m not found!
+I_ShutdownMouse()
+I_ShutdownKeyboard()
+I_ShutdownTcpDriver: shut down
+I_ShutdownMIDIMusic: 
+I_ShutdownSound()
+I_ShutdownGraphics()
+I_Quit(): end of logstream.

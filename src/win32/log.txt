@@ -1,14 +1,14 @@
 GetArgcArgv() ...
-lpCmdLine is '"C:\Users\RafaTheFox\Downloads\SRB2-Public-master\bin\VC10\Win32\Debug\Srb2win.exe" '
+lpCmdLine is '"C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\bin\VC10\Win32\Debug\Srb2win.exe" '
 Hello, it's me, SRB2's Console Window
-Old STD_INPUT_HANDLE: 00000150
-New STD_INPUT_HANDLE: 0000015C
-Old STD_OUTPUT_HANDLE: 00000154
-New STD_OUTPUT_HANDLE: 00000160
-Old STD_ERROR_HANDLE: 00000158
-New STD_ERROR_HANDLE: 00000160
+Old STD_INPUT_HANDLE: 0000014C
+New STD_INPUT_HANDLE: 00000158
+Old STD_OUTPUT_HANDLE: 00000150
+New STD_OUTPUT_HANDLE: 0000015C
+Old STD_ERROR_HANDLE: 00000154
+New STD_ERROR_HANDLE: 0000015C
 Myargc: 1
-myargv[0] : 'C:\Users\RafaTheFox\Downloads\SRB2-Public-master\bin\VC10\Win32\Debug\Srb2win.exe'
+myargv[0] : 'C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\bin\VC10\Win32\Debug\Srb2win.exe'
 I_StartupSystem() ...
 D_SRB2Main() ...
 SRB2 v2.0.7
@@ -16,19 +16,17 @@ Z_Init: Init zone memory allocation daemon.
 system memory 2047MB free 2047MB
 W_Init: Init WADfiles.
 I_StartupTimer...
-Added file C:\Users\RafaTheFox\Downloads\SRB2-Public-master\src\win32\srb2.srb (5421 lumps)
-Loading main config from C:\Users\RafaTheFox\Downloads\SRB2-Public-master\src\win32\srb2.srb
-Added file C:\Users\RafaTheFox\Downloads\SRB2-Public-master\src\win32\zones.dta (907 lumps)
-Loading main config from C:\Users\RafaTheFox\Downloads\SRB2-Public-master\src\win32\zones.dta
-Added file C:\Users\RafaTheFox\Downloads\SRB2-Public-master\src\win32\sonic.plr (185 lumps)
-Added file C:\Users\RafaTheFox\Downloads\SRB2-Public-master\src\win32\tails.plr (175 lumps)
-Added file C:\Users\RafaTheFox\Downloads\SRB2-Public-master\src\win32\knux.plr (171 lumps)
-Added file C:\Users\RafaTheFox\Downloads\SRB2-Public-master\src\win32\rings.wpn (212 lumps)
-File drill.dta not found.
-Added file C:\Users\RafaTheFox\Downloads\SRB2-Public-master\src\win32\soar.dta (92 lumps)
-Added file C:\Users\RafaTheFox\Downloads\SRB2-Public-master\src\win32\music.dta (166 lumps)
-File is corrupt or has been modified: C:\Users\RafaTheFox\Downloads\SRB2-Public-master\src\win32\soar.dta (found md5: 8d080c050ecf03691562aa7b60156fec, wanted: 6b1cf9b41e41a46ac58606dc6e7c9e05)
-File is corrupt or has been modified: C:\Users\RafaTheFox\Downloads\SRB2-Public-master\src\win32\music.dta (found md5: b743c769919d40891abe39311b9ffbc9, wanted: 8d080c050ecf03691562aa7b60156fec)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\win32\srb2.srb (5421 lumps)
+Loading main config from C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\win32\srb2.srb
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\win32\zones.dta (907 lumps)
+Loading main config from C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\win32\zones.dta
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\win32\sonic.plr (185 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\win32\tails.plr (175 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\win32\knux.plr (171 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\win32\rings.wpn (212 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\win32\drill.dta (182 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\win32\soar.dta (92 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\win32\music.dta (166 lumps)
 ===========================================================================
                    We hope you enjoy this game as
                      much as we did making it!
@@ -58,21 +56,22 @@ CPU Info: 486: 1, 586: 1, MMX: 1, 3DNow: 0, MMXExt: 0, SSE2: 1
 HU_Init: Setting up heads up display.
 Number of console HUD lines is now 5
 
-couldn't execute file config.cfg
+executing config.cfg
 Default resolution: 320 x 200 (8 bits)
 M_Init: Init miscellaneous info.
 R_Init: Init SRB2 refresh daemon - 
 InitTextures...
 InitSprites...
-220 sprites added from file C:\Users\RafaTheFox\Downloads\SRB2-Public-master\src\win32\srb2.srb
-221 sprites added from file C:\Users\RafaTheFox\Downloads\SRB2-Public-master\src\win32\sonic.plr
-227 sprites added from file C:\Users\RafaTheFox\Downloads\SRB2-Public-master\src\win32\rings.wpn
-228 sprites added from file C:\Users\RafaTheFox\Downloads\SRB2-Public-master\src\win32\soar.dta
+220 sprites added from file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\win32\srb2.srb
+221 sprites added from file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\win32\sonic.plr
+227 sprites added from file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\win32\rings.wpn
+228 sprites added from file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\win32\drill.dta
+229 sprites added from file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\win32\soar.dta
 added skin 'tails'
 added skin 'knuckles'
 
 InitColormaps...
-Number of Extra Colormaps: 8
+Number of Extra Colormaps: 9
 S_Init: Setting up sound.
 I_StartupSound:  Compacting onboard sound-memory... done
 sound initialised.
@@ -91,64 +90,3 @@ Entering main app loop...
 I_StartupKeyboard...
 I_StartupMouse...
 VID_SetMode(0)
-Starting Server....
-Press ESC to abort
-Contacting the server...
-Sending join request...
-Join accepted, waiting for next level change...
-Player 1 has joined the game (node 0)
-Player 1 renamed to RafaTheFox
-Speeding off to level...
-VID_SetMode(0)
-Speeding off to level...
->map 
-map <mapname> [-gametype <type> [-force]: warp to map
->map 2 -force
-Internal game level '2' not found
->map map02
-Sorry, level change disabled in single player.
->map 2 -force -force
-Internal game level '2' not found
->map map02 -force
-Sorry, level change disabled in single player.
->devmode
-WARNING: Game must be restarted to record statistics.
->map map02 -force
-Speeding off to level...
-ERROR: Music lump map02m not found!
-ERROR: Music lump map02m not found!
-Lowest mare found: 255
-Current mare is 255
->map map01
-Speeding off to level...
-ERROR: Music lump map01m not found!
-ERROR: Music lump map01m not found!
-Lowest mare found: 255
-Current mare is 255
->tunes 1
-cannot connect to the master server
-cannot connect to the master server
-Starting Server....
-Network system buffer: 64Kb
-Press ESC to abort
-Contacting the server...
-Connecting to: SRB2 server
-Gametype: Coop
-Version: 2.00.7
-Sending join request...
-Join accepted, waiting for next level change...
-Time limit disabled
-Player 1 has joined the game (node 0)
-Speeding off to level...
-Map is now "MAP01: GREENFLOWER ZONE  1"
-Player 1 renamed to RafaTheFox
-RafaTheFox renamed to Sonikku
-Speeding off to level...
-Map is now "MAP13: ARID CANYON ZONE  1"
-I_ShutdownMouse()
-I_ShutdownKeyboard()
-I_ShutdownTcpDriver: shut down
-I_ShutdownMIDIMusic: 
-I_ShutdownSound()
-I_ShutdownGraphics()
-I_Quit(): end of logstream.

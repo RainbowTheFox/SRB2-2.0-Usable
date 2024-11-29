@@ -21,6 +21,13 @@
 ///	PCX Screenshots.
 ///	File i/o
 
+// REMOVE PNG
+#ifdef HAVE_PNG
+
+#undef HAVE_PNG
+
+#endif
+
 #ifdef __GNUC__
 #include <unistd.h>
 #endif
@@ -57,8 +64,6 @@
 
 #ifdef HAVE_PNG
 
-#undef HAVE_PNG
-
 #ifndef _MSC_VER
 #ifndef _LARGEFILE64_SOURCE
 #define _LARGEFILE64_SOURCE
@@ -73,7 +78,7 @@
 #define _FILE_OFFSET_BITS 0
 #endif
 
- //#include "png.h"
+ #include "png.h"
  #ifdef PNG_WRITE_SUPPORTED
   #define USE_PNG // Only actually use PNG if write is supported.
   #if defined (PNG_WRITE_APNG_SUPPORTED) //|| !defined(PNG_STATIC)

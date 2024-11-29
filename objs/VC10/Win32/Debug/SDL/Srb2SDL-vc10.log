@@ -1,0 +1,8 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2176,5): warning : The referenced project '..\..\libs\libpng-src\projects\visualc10\libpng.vcxproj' does not exist.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2176,5): warning : The referenced project '..\..\libs\zlib\projects\visualc10\zlib.vcxproj' does not exist.
+  Getting revision number from the SCM system
+  'svnversion' não é reconhecido como um comando interno
+  ou externo, um programa operável ou um arquivo em lotes.
+cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  comptime.c
+  Srb2SDL-vc10.vcxproj -> C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\bin\VC10\Win32\Debug\Srb2SDL.exe

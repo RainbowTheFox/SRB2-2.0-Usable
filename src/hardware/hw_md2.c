@@ -38,6 +38,13 @@
 
 #include "hw_main.h"
 
+// REMOVE PNG
+#ifdef HAVE_PNG
+
+#undef HAVE_PNG
+
+#endif
+
 #ifdef HAVE_PNG
 
 #ifndef _MSC_VER
@@ -54,7 +61,7 @@
 #define _FILE_OFFSET_BITS 0
 #endif
 
- //#include "png.h"
+ #include "png.h"
  #ifndef PNG_READ_SUPPORTED
  #undef HAVE_PNG
  #endif

@@ -54,7 +54,7 @@
 #ifdef PC_DOS
 #include <stdio.h> // for _snprintf
 int	_snprintf(char *str, size_t n, const char *fmt, ...);
-//int	v_snprintf(char *str, size_t n, const char *fmt, va_list ap);
+//int	_vsnprintf(char *str, size_t n, const char *fmt, va_list ap);
 #endif
 
 #ifndef O_BINARY

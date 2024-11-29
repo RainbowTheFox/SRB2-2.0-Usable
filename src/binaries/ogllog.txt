@@ -1,0 +1,4 @@
+HWRAPI Init(): SRB2 OpenGL renderer v2.0.6
+HWRAPI Shutdown()
+Nb frames: 0;  Nb sec: 7.05  ->  0.0 fps
+HWRAPI Shutdown(DONE)

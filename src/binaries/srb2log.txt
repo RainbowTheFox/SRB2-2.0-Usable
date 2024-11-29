@@ -1,0 +1,1681 @@
+Compiled for SDL version: 1.2.15
+Linked with SDL version: 1.2.15
+Setting up SRB2...
+Looking for WADs in: SRB2WADDIR,.
+SRB2 v2.0.7
+Z_Init: Init zone memory allocation daemon. 
+system memory 2047MB free 2047MB
+W_Init: Init WADfiles.
+I_StartupTimer...
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\srb2.srb (5421 lumps)
+Loading main config from C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\srb2.srb
+File zones.dta not found.
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\sonic.plr (185 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\tails.plr (175 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\knux.plr (171 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\rings.wpn (212 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\drill.dta (182 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\soar.dta (92 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\music.dta (166 lumps)
+File is corrupt or has been modified: C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\sonic.plr (found md5: f699d4702b9b505db621e5ad5af4f352, wanted: 86ae3f9179c64358d1c88060e41bd415)
+File is corrupt or has been modified: C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\tails.plr (found md5: dfbbc38080485c70a84a57bb734ceee9, wanted: f699d4702b9b505db621e5ad5af4f352)
+File is corrupt or has been modified: C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\knux.plr (found md5: 1ea958e2aee87b6995226a120ba3eaac, wanted: dfbbc38080485c70a84a57bb734ceee9)
+File is corrupt or has been modified: C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\rings.wpn (found md5: 8f702416c15060cd3c53c71b91116914, wanted: 1ea958e2aee87b6995226a120ba3eaac)
+File is corrupt or has been modified: C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\drill.dta (found md5: 6b1cf9b41e41a46ac58606dc6e7c9e05, wanted: 8f702416c15060cd3c53c71b91116914)
+File is corrupt or has been modified: C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\soar.dta (found md5: 8d080c050ecf03691562aa7b60156fec, wanted: 6b1cf9b41e41a46ac58606dc6e7c9e05)
+File is corrupt or has been modified: C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\music.dta (found md5: b743c769919d40891abe39311b9ffbc9, wanted: 8d080c050ecf03691562aa7b60156fec)
+===========================================================================
+                   We hope you enjoy this game as
+                     much as we did making it!
+                            ...wait. =P
+===========================================================================
+I_StartupGraphics...
+Starting up with video driver : windib
+Found 16 FullScreen Video Modes:
+1600x900 and 1440x900 and 1366x768 and 1360x768 and 1280x1024 and 1280x960 and 1280x800 and 1280x768 and 1280x720 and 1176x664 and 1152x864 and 1024x768 and 800x600 and 720x576 and 720x480 and 640x480 and None
+Video Interface Capabilities:
+ Window manager
+ Accelerated blits HW-2-HW with Alpha
+ There no video memory for SDL
+Current Video Mode:
+ 320x200 at 8 bit color
+ Stored in system memory
+ Uses synchronous blits if possible
+ Has exclusive palette access
+ No hardware flipping
+ Nonresizable window
+CPU Info: 486: 1, 586: 1, MMX: 1, 3DNow: 0, MMXExt: 0, SSE2: 1
+HU_Init: Setting up heads up display.
+Number of console HUD lines is now 5
+
+couldn't execute file config.cfg
+Default resolution: 320 x 200 (8 bits)
+M_Init: Init miscellaneous info.
+R_Init: Init SRB2 refresh daemon - 
+InitTextures...
+InitSprites...
+220 sprites added from file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\srb2.srb
+221 sprites added from file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\sonic.plr
+227 sprites added from file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\rings.wpn
+228 sprites added from file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\drill.dta
+229 sprites added from file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\soar.dta
+added skin 'tails'
+added skin 'knuckles'
+
+InitColormaps...
+Number of Extra Colormaps: 8
+S_Init: Setting up sound.
+I_StartupSound:
+ Starting up with audio driver : dsound
+ configured audio device with 1024 samples/slice at 22khz(46ms buffer)
+I_InitSound: sound module ready
+Compiled for SDL_mixer version: 1.2.7
+Linked with SDL_mixer version: 1.2.7
+Temp Shutdown of SDL Audio System Done
+I_InitMusic: Starting up with audio driver : dsound with SDL_Mixer
+ Reconfigured SDL Audio System with 2048 samples/slice at 44khz(46ms buffer)
+I_InitMusic: music initialized
+ST_Init: Init status bar.
+D_CheckNetGame: Checking network game status.
+WinSock description: WinSock 2.0
+WinSock System Status: Running
+Entering main game loop...
+I_StartupKeyboard...
+WARNING: Resolution is not aspect-correct!
+Use a multiple of 320x200
+WARNING: Resolution is not aspect-correct!
+Use a multiple of 320x200
+WARNING: Resolution is not aspect-correct!
+Use a multiple of 320x200
+WARNING: Resolution is not aspect-correct!
+Use a multiple of 320x200
+WARNING: Resolution is not aspect-correct!
+Use a multiple of 320x200
+Starting Server....
+Press ESC to abort
+Contacting the server...
+Sending join request...
+Join accepted, waiting for next level change...
+Player 1 has joined the game (node 0)
+Player 1 renamed to RafaTheFox
+Speeding off to level...
+I_ShutdownMusic: shut down
+I_ShutdownSound: shut down
+I_ShutdownGraphics: shut down
+I_ShutdownTcpDriver: shut down
+Compiled for SDL version: 1.2.15
+Linked with SDL version: 1.2.15
+Setting up SRB2...
+Looking for WADs in: SRB2WADDIR,.
+SRB2 v2.0.7
+Z_Init: Init zone memory allocation daemon. 
+system memory 2047MB free 2047MB
+W_Init: Init WADfiles.
+I_StartupTimer...
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\srb2.srb (5421 lumps)
+Loading main config from C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\srb2.srb
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\zones.dta (907 lumps)
+Loading main config from C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\zones.dta
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\sonic.plr (185 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\tails.plr (175 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\knux.plr (171 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\rings.wpn (212 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\drill.dta (182 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\soar.dta (92 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\music.dta (166 lumps)
+===========================================================================
+                   We hope you enjoy this game as
+                     much as we did making it!
+                            ...wait. =P
+===========================================================================
+I_StartupGraphics...
+Starting up with video driver : windib
+Found 16 FullScreen Video Modes:
+1600x900 and 1440x900 and 1366x768 and 1360x768 and 1280x1024 and 1280x960 and 1280x800 and 1280x768 and 1280x720 and 1176x664 and 1152x864 and 1024x768 and 800x600 and 720x576 and 720x480 and 640x480 and None
+Video Interface Capabilities:
+ Window manager
+ Accelerated blits HW-2-HW with Alpha
+ There no video memory for SDL
+Current Video Mode:
+ 320x200 at 8 bit color
+ Stored in system memory
+ Uses synchronous blits if possible
+ Has exclusive palette access
+ No hardware flipping
+ Nonresizable window
+CPU Info: 486: 1, 586: 1, MMX: 1, 3DNow: 0, MMXExt: 0, SSE2: 1
+HU_Init: Setting up heads up display.
+Number of console HUD lines is now 5
+
+executing config.cfg
+Default resolution: 320 x 200 (8 bits)
+M_Init: Init miscellaneous info.
+R_Init: Init SRB2 refresh daemon - 
+InitTextures...
+InitSprites...
+220 sprites added from file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\srb2.srb
+221 sprites added from file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\sonic.plr
+227 sprites added from file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\rings.wpn
+228 sprites added from file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\drill.dta
+229 sprites added from file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\soar.dta
+added skin 'tails'
+added skin 'knuckles'
+
+InitColormaps...
+Number of Extra Colormaps: 9
+S_Init: Setting up sound.
+I_StartupSound:
+ Starting up with audio driver : dsound
+ configured audio device with 1024 samples/slice at 22khz(46ms buffer)
+I_InitSound: sound module ready
+Compiled for SDL_mixer version: 1.2.7
+Linked with SDL_mixer version: 1.2.7
+Temp Shutdown of SDL Audio System Done
+I_InitMusic: Starting up with audio driver : dsound with SDL_Mixer
+ Reconfigured SDL Audio System with 2048 samples/slice at 44khz(46ms buffer)
+I_InitMusic: music initialized
+ST_Init: Init status bar.
+D_CheckNetGame: Checking network game status.
+WinSock description: WinSock 2.0
+WinSock System Status: Running
+Entering main game loop...
+I_StartupKeyboard...
+Starting Server....
+Press ESC to abort
+Contacting the server...
+Sending join request...
+Join accepted, waiting for next level change...
+Player 1 has joined the game (node 0)
+Player 1 renamed to RafaTheFox
+Speeding off to level...
+>pause
+I_ShutdownMusic: shut down
+I_ShutdownSound: shut down
+I_ShutdownGraphics: shut down
+I_ShutdownTcpDriver: shut down
+Compiled for SDL version: 1.2.15
+Linked with SDL version: 1.2.15
+Setting up SRB2...
+Looking for WADs in: SRB2WADDIR,.
+SRB2 v2.0.7
+Z_Init: Init zone memory allocation daemon. 
+system memory 2047MB free 2047MB
+W_Init: Init WADfiles.
+I_StartupTimer...
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\srb2.srb (5421 lumps)
+Loading main config from C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\srb2.srb
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\zones.dta (907 lumps)
+Loading main config from C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\zones.dta
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\sonic.plr (185 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\tails.plr (175 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\knux.plr (171 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\rings.wpn (212 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\drill.dta (182 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\soar.dta (92 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\music.dta (166 lumps)
+===========================================================================
+                   We hope you enjoy this game as
+                     much as we did making it!
+                            ...wait. =P
+===========================================================================
+I_StartupGraphics...
+Starting up with video driver : windib
+Found 16 FullScreen Video Modes:
+1600x900 and 1440x900 and 1366x768 and 1360x768 and 1280x1024 and 1280x960 and 1280x800 and 1280x768 and 1280x720 and 1176x664 and 1152x864 and 1024x768 and 800x600 and 720x576 and 720x480 and 640x480 and None
+Video Interface Capabilities:
+ Window manager
+ Accelerated blits HW-2-HW with Alpha
+ There no video memory for SDL
+Current Video Mode:
+ 320x200 at 8 bit color
+ Stored in system memory
+ Uses synchronous blits if possible
+ Has exclusive palette access
+ No hardware flipping
+ Nonresizable window
+CPU Info: 486: 1, 586: 1, MMX: 1, 3DNow: 0, MMXExt: 0, SSE2: 1
+HU_Init: Setting up heads up display.
+Number of console HUD lines is now 5
+
+executing config.cfg
+Default resolution: 320 x 200 (8 bits)
+M_Init: Init miscellaneous info.
+R_Init: Init SRB2 refresh daemon - 
+InitTextures...
+InitSprites...
+220 sprites added from file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\srb2.srb
+221 sprites added from file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\sonic.plr
+227 sprites added from file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\rings.wpn
+228 sprites added from file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\drill.dta
+229 sprites added from file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\soar.dta
+added skin 'tails'
+added skin 'knuckles'
+
+InitColormaps...
+Number of Extra Colormaps: 9
+S_Init: Setting up sound.
+I_StartupSound:
+ Starting up with audio driver : dsound
+ configured audio device with 1024 samples/slice at 22khz(46ms buffer)
+I_InitSound: sound module ready
+Compiled for SDL_mixer version: 1.2.7
+Linked with SDL_mixer version: 1.2.7
+Temp Shutdown of SDL Audio System Done
+I_InitMusic: Starting up with audio driver : dsound with SDL_Mixer
+ Reconfigured SDL Audio System with 2048 samples/slice at 44khz(46ms buffer)
+I_InitMusic: music initialized
+ST_Init: Init status bar.
+D_CheckNetGame: Checking network game status.
+WinSock description: WinSock 2.0
+WinSock System Status: Running
+Entering main game loop...
+I_StartupKeyboard...
+I_ShutdownMusic: shut down
+I_ShutdownSound: shut down
+I_ShutdownGraphics: shut down
+I_ShutdownTcpDriver: shut down
+Compiled for SDL version: 1.2.15
+Linked with SDL version: 1.2.15
+Setting up SRB2...
+Looking for WADs in: SRB2WADDIR,.
+SRB2 v2.0.7
+Z_Init: Init zone memory allocation daemon. 
+system memory 2047MB free 2047MB
+W_Init: Init WADfiles.
+I_StartupTimer...
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\srb2.srb (5421 lumps)
+Loading main config from C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\srb2.srb
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\zones.dta (907 lumps)
+Loading main config from C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\zones.dta
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\sonic.plr (185 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\tails.plr (175 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\knux.plr (171 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\rings.wpn (212 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\drill.dta (182 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\soar.dta (92 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\music.dta (166 lumps)
+===========================================================================
+                   We hope you enjoy this game as
+                     much as we did making it!
+                            ...wait. =P
+===========================================================================
+I_StartupGraphics...
+Starting up with video driver : windib
+Found 16 FullScreen Video Modes:
+1600x900 and 1440x900 and 1366x768 and 1360x768 and 1280x1024 and 1280x960 and 1280x800 and 1280x768 and 1280x720 and 1176x664 and 1152x864 and 1024x768 and 800x600 and 720x576 and 720x480 and 640x480 and None
+Video Interface Capabilities:
+ Window manager
+ Accelerated blits HW-2-HW with Alpha
+ There no video memory for SDL
+Current Video Mode:
+ 320x200 at 8 bit color
+ Stored in system memory
+ Uses synchronous blits if possible
+ Has exclusive palette access
+ No hardware flipping
+ Nonresizable window
+CPU Info: 486: 1, 586: 1, MMX: 1, 3DNow: 0, MMXExt: 0, SSE2: 1
+HU_Init: Setting up heads up display.
+Number of console HUD lines is now 5
+
+executing config.cfg
+Default resolution: 320 x 200 (8 bits)
+M_Init: Init miscellaneous info.
+R_Init: Init SRB2 refresh daemon - 
+InitTextures...
+InitSprites...
+220 sprites added from file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\srb2.srb
+221 sprites added from file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\sonic.plr
+227 sprites added from file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\rings.wpn
+228 sprites added from file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\drill.dta
+229 sprites added from file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\soar.dta
+added skin 'tails'
+added skin 'knuckles'
+
+InitColormaps...
+Number of Extra Colormaps: 9
+S_Init: Setting up sound.
+I_StartupSound:
+ Starting up with audio driver : dsound
+ configured audio device with 1024 samples/slice at 22khz(46ms buffer)
+I_InitSound: sound module ready
+Compiled for SDL_mixer version: 1.2.7
+Linked with SDL_mixer version: 1.2.7
+Temp Shutdown of SDL Audio System Done
+I_InitMusic: Starting up with audio driver : dsound with SDL_Mixer
+ Reconfigured SDL Audio System with 2048 samples/slice at 44khz(46ms buffer)
+I_InitMusic: music initialized
+ST_Init: Init status bar.
+D_CheckNetGame: Checking network game status.
+WinSock description: WinSock 2.0
+WinSock System Status: Running
+Entering main game loop...
+I_StartupKeyboard...
+Starting Server....
+Press ESC to abort
+Contacting the server...
+Sending join request...
+Join accepted, waiting for next level change...
+Player 1 has joined the game (node 0)
+Player 1 renamed to RafaTheFox
+Speeding off to level...
+I_ShutdownMusic: shut down
+I_ShutdownSound: shut down
+I_ShutdownGraphics: shut down
+I_ShutdownTcpDriver: shut down
+Compiled for SDL version: 1.2.15
+Linked with SDL version: 1.2.15
+Setting up SRB2...
+Looking for WADs in: SRB2WADDIR,.
+SRB2 v2.0.7
+Z_Init: Init zone memory allocation daemon. 
+system memory 2047MB free 2047MB
+W_Init: Init WADfiles.
+I_StartupTimer...
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\srb2.srb (5421 lumps)
+Loading main config from C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\srb2.srb
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\zones.dta (907 lumps)
+Loading main config from C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\zones.dta
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\sonic.plr (185 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\tails.plr (175 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\knux.plr (171 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\rings.wpn (212 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\drill.dta (182 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\soar.dta (92 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\music.dta (166 lumps)
+===========================================================================
+                   We hope you enjoy this game as
+                     much as we did making it!
+                            ...wait. =P
+===========================================================================
+I_StartupGraphics...
+Starting up with video driver : windib
+Found 16 FullScreen Video Modes:
+1600x900 and 1440x900 and 1366x768 and 1360x768 and 1280x1024 and 1280x960 and 1280x800 and 1280x768 and 1280x720 and 1176x664 and 1152x864 and 1024x768 and 800x600 and 720x576 and 720x480 and 640x480 and None
+HWRAPI Init(): SRB2 OpenGL renderer v2.0.7
+Vendor     : NVIDIA Corporation
+Renderer   : GeForce GT 730/PCIe/SSE2
+Version    : 4.6.0 NVIDIA 391.35
+Extensions : GL_AMD_multi_draw_indirect GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compatibility GL_ARB_compressed_texture_pixel_storage GL_ARB_conservative_depth GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_bit_encoding GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_transpose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_flÃÃÃÃ¥ÖèZ‹˘oglflags   : 0x0
+SetModelView(): 320x240
+SetStates()
+HWR_Startup()
+InitMD2()...
+Error while loading md2.dat
+Video Interface Capabilities:
+ Window manager
+ Accelerated blits HW-2-HW with Alpha
+ There no video memory for SDL
+Current Video Mode:
+ 320x240 at 16 bit color
+ Stored in an OpenGL context
+ Uses synchronous blits if possible
+ Has nonexclusive palette access
+ No hardware flipping
+ Nonresizable window
+CPU Info: 486: 1, 586: 1, MMX: 1, 3DNow: 0, MMXExt: 0, SSE2: 1
+HU_Init: Setting up heads up display.
+Number of console HUD lines is now 5
+
+executing config.cfg
+Default resolution: 320 x 200 (8 bits)
+M_Init: Init miscellaneous info.
+R_Init: Init SRB2 refresh daemon - 
+InitTextures...
+InitSprites...
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+220 sprites added from file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\srb2.srb
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+221 sprites added from file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\sonic.plr
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+227 sprites added from file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\rings.wpn
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+228 sprites added from file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\drill.dta
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+Error while loading md2.dat
+229 sprites added from file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\soar.dta
+added skin 'tails'
+AddPlayerMD2()...
+Error while loading md2.dat
+added skin 'knuckles'
+AddPlayerMD2()...
+Error while loading md2.dat
+
+InitColormaps...
+Number of Extra Colormaps: 9
+S_Init: Setting up sound.
+I_StartupSound:
+ Starting up with audio driver : dsound
+ configured audio device with 1024 samples/slice at 22khz(46ms buffer)
+I_InitSound: sound module ready
+Compiled for SDL_mixer version: 1.2.7
+Linked with SDL_mixer version: 1.2.7
+Temp Shutdown of SDL Audio System Done
+I_InitMusic: Starting up with audio driver : dsound with SDL_Mixer
+ Reconfigured SDL Audio System with 2048 samples/slice at 44khz(46ms buffer)
+I_InitMusic: music initialized
+ST_Init: Init status bar.
+D_CheckNetGame: Checking network game status.
+WinSock description: WinSock 2.0
+WinSock System Status: Running
+Entering main game loop...
+I_StartupKeyboard...
+Vendor     : NVIDIA Corporation
+Renderer   : GeForce GT 730/PCIe/SSE2
+Version    : 4.6.0 NVIDIA 391.35
+Extensions : GL_AMD_multi_draw_indirect GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compatibility GL_ARB_compressed_texture_pixel_storage GL_ARB_conservative_depth GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_bit_encoding GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_transpose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_flÃÃÃÃháèZ8˚oglflags   : 0x0
+SetModelView(): 320x200
+SetStates()
+Starting Server....
+Press ESC to abort
+Contacting the server...
+Sending join request...
+Join accepted, waiting for next level change...
+Player 1 has joined the game (node 0)
+Player 1 renamed to RafaTheFox
+Speeding off to level...
+Speeding off to level...
+I_ShutdownMusic: shut down
+I_ShutdownSound: shut down
+I_ShutdownGraphics: shut down
+I_ShutdownTcpDriver: shut down
+Compiled for SDL version: 1.2.15
+Linked with SDL version: 1.2.15
+Setting up SRB2...
+Looking for WADs in: SRB2WADDIR,.
+SRB2 v2.0.7
+Z_Init: Init zone memory allocation daemon. 
+system memory 2047MB free 2047MB
+W_Init: Init WADfiles.
+I_StartupTimer...
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\srb2.srb (5421 lumps)
+Loading main config from C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\srb2.srb
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\zones.dta (907 lumps)
+Loading main config from C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\zones.dta
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\sonic.plr (185 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\tails.plr (175 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\knux.plr (171 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\rings.wpn (212 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\drill.dta (182 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\soar.dta (92 lumps)
+Added file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\music.dta (166 lumps)
+===========================================================================
+                   We hope you enjoy this game as
+                     much as we did making it!
+                            ...wait. =P
+===========================================================================
+I_StartupGraphics...
+Starting up with video driver : windib
+Found 16 FullScreen Video Modes:
+1600x900 and 1440x900 and 1366x768 and 1360x768 and 1280x1024 and 1280x960 and 1280x800 and 1280x768 and 1280x720 and 1176x664 and 1152x864 and 1024x768 and 800x600 and 720x576 and 720x480 and 640x480 and None
+Video Interface Capabilities:
+ Window manager
+ Accelerated blits HW-2-HW with Alpha
+ There no video memory for SDL
+Current Video Mode:
+ 320x200 at 8 bit color
+ Stored in system memory
+ Uses synchronous blits if possible
+ Has exclusive palette access
+ No hardware flipping
+ Nonresizable window
+CPU Info: 486: 1, 586: 1, MMX: 1, 3DNow: 0, MMXExt: 0, SSE2: 1
+HU_Init: Setting up heads up display.
+Number of console HUD lines is now 5
+
+executing config.cfg
+Default resolution: 320 x 200 (8 bits)
+M_Init: Init miscellaneous info.
+R_Init: Init SRB2 refresh daemon - 
+InitTextures...
+InitSprites...
+220 sprites added from file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\srb2.srb
+221 sprites added from file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\sonic.plr
+227 sprites added from file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\rings.wpn
+228 sprites added from file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\drill.dta
+229 sprites added from file C:\Users\RafaTheFox\Desktop\SRB2-Public-master (1)\SRB2-Public-master\src\binaries\soar.dta
+added skin 'tails'
+added skin 'knuckles'
+
+InitColormaps...
+Number of Extra Colormaps: 9
+S_Init: Setting up sound.
+I_StartupSound:
+ Starting up with audio driver : dsound
+ configured audio device with 1024 samples/slice at 22khz(46ms buffer)
+I_InitSound: sound module ready
+Compiled for SDL_mixer version: 1.2.7
+Linked with SDL_mixer version: 1.2.7
+Temp Shutdown of SDL Audio System Done
+I_InitMusic: Starting up with audio driver : dsound with SDL_Mixer
+ Reconfigured SDL Audio System with 2048 samples/slice at 44khz(46ms buffer)
+I_InitMusic: music initialized
+ST_Init: Init status bar.
+D_CheckNetGame: Checking network game status.
+WinSock description: WinSock 2.0
+WinSock System Status: Running
+Entering main game loop...
+I_StartupKeyboard...
+I_ShutdownMusic: shut down
+I_ShutdownSound: shut down
+I_ShutdownGraphics: shut down
+I_ShutdownTcpDriver: shut down

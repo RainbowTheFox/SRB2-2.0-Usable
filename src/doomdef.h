@@ -21,10 +21,6 @@
 #ifndef __DOOMDEF__
 #define __DOOMDEF__
 
-#ifdef HAS_PNG
-#undef HAVE_PNG
-#endif
-
 #ifdef _WINDOWS
 #if !defined (HWRENDER) && !defined (NOHW)
 #define HWRENDER

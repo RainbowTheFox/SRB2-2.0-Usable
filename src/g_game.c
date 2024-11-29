@@ -17,6 +17,13 @@
 /// \file
 /// \brief game loop functions, events handling
 
+// REMOVE PNG
+#ifdef HAVE_PNG
+
+#undef HAVE_PNG
+
+#endif
+
 #include "doomdef.h"
 #include "console.h"
 #include "dstrings.h"
@@ -46,12 +53,6 @@
 #include "r_things.h"
 #include "y_inter.h"
 #include "v_video.h"
-
-#ifdef HAVE_PNG
-
-#undef HAVE_PNG
-
-#endif
 
 gameaction_t gameaction;
 gamestate_t gamestate = GS_NULL;

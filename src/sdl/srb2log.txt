@@ -1,0 +1,24 @@
+Compiled for SDL version: 1.2.15
+Linked with SDL version: 1.2.15
+Setting up SRB2...
+Looking for WADs in: SRB2WADDIR,.,c:\games\srb2,\games\srb2,HOME, in:c:\games, in:\games
+Compiled for SDL version: 1.2.15
+Linked with SDL version: 1.2.15
+Setting up SRB2...
+Looking for WADs in: SRB2WADDIR,.,c:\games\srb2,\games\srb2,HOME, in:c:\games, in:\games
+Compiled for SDL version: 1.2.15
+Linked with SDL version: 1.2.15
+Setting up SRB2...
+Looking for WADs in: SRB2WADDIR,.,c:\games\srb2,\games\srb2,HOME, in:c:\games, in:\games
+Compiled for SDL version: 1.2.15
+Linked with SDL version: 1.2.15
+Setting up SRB2...
+Looking for WADs in: SRB2WADDIR,.,c:\games\srb2,\games\srb2,HOME, in:c:\games, in:\games
+Compiled for SDL version: 1.2.15
+Linked with SDL version: 1.2.15
+Setting up SRB2...
+Looking for WADs in: SRB2WADDIR,.,c:\games\srb2,\games\srb2,HOME, in:c:\games, in:\games
+Compiled for SDL version: 1.2.15
+Linked with SDL version: 1.2.15
+Setting up SRB2...
+Looking for WADs in: SRB2WADDIR,.,c:\games\srb2,\games\srb2,HOME, in:c:\games, in:\games

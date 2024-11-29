@@ -1,4 +1,4 @@
-/* =========================================================================================== */ 
+/* =========================================================================================== */
 /* FMOD Dynamic DLL loading header. Copyright (c), Firelight Technologies Pty, Ltd. 1999-2004. */
 /* =========================================================================================== */
 
@@ -13,7 +13,6 @@
 #endif
 #include <stdlib.h>
 
-/*
 typedef struct
 {
     void *module;
@@ -28,7 +27,7 @@ typedef struct
     signed char       (F_API *FSOUND_SetMemorySystem)(void *pool, int poollen, FSOUND_ALLOCCALLBACK useralloc, FSOUND_REALLOCCALLBACK userrealloc, FSOUND_FREECALLBACK userfree);
     signed char       (F_API *FSOUND_Init)(int mixrate, int maxsoftwarechannels, unsigned int flags);
     void              (F_API *FSOUND_Close)();
-    void              (F_API *FSOUND_Update)();   /* you must call this once a frame
+    void              (F_API *FSOUND_Update)();   /* you must call this once a frame */
     void              (F_API *FSOUND_SetSpeakerMode)(unsigned int speakermode);
     void              (F_API *FSOUND_SetSFXMasterVolume)(int volume);
     void              (F_API *FSOUND_SetPanSeperation)(float pansep);
@@ -108,10 +107,10 @@ typedef struct
     void              (F_API *FSOUND_3D_SetDopplerFactor)(float scale);
     void              (F_API *FSOUND_3D_SetDistanceFactor)(float scale);
     void              (F_API *FSOUND_3D_SetRolloffFactor)(float scale);
-    void              (F_API *FSOUND_3D_Listener_SetCurrent)(int current, int numlisteners);  /* use this if you use multiple listeners / splitscreen 
+    void              (F_API *FSOUND_3D_Listener_SetCurrent)(int current, int numlisteners);  /* use this if you use multiple listeners / splitscreen */
     void              (F_API *FSOUND_3D_Listener_SetAttributes)(const float *pos, const float *vel, float fx, float fy, float fz, float tx, float ty, float tz);
     void              (F_API *FSOUND_3D_Listener_GetAttributes)(float *pos, float *vel, float *fx, float *fy, float *fz, float *tx, float *ty, float *tz);
-    int               (F_API *FSOUND_FX_Enable)(int channel, unsigned int fx);    /* See FSOUND_FX_MODES 
+    int               (F_API *FSOUND_FX_Enable)(int channel, unsigned int fx);    /* See FSOUND_FX_MODES */
     signed char       (F_API *FSOUND_FX_Disable)(int channel);
     signed char       (F_API *FSOUND_FX_SetChorus)(int fxid, float WetDryMix, float Depth, float Feedback, float Frequency, int Waveform, float Delay, int Phase);
     signed char       (F_API *FSOUND_FX_SetCompressor)(int fxid, float Gain, float Attack, float Release, float Threshold, float Ratio, float Predelay);
@@ -122,7 +121,7 @@ typedef struct
     signed char       (F_API *FSOUND_FX_SetI3DL2Reverb)(int fxid, int Room, int RoomHF, float RoomRolloffFactor, float DecayTime, float DecayHFRatio, int Reflections, float ReflectionsDelay, int Reverb, float ReverbDelay, float Diffusion, float Density, float HFReference);
     signed char       (F_API *FSOUND_FX_SetParamEQ)(int fxid, float Center, float Bandwidth, float Gain);
     signed char       (F_API *FSOUND_FX_SetWavesReverb)(int fxid, float InGain, float ReverbMix, float ReverbTime, float HighFreqRTRatio);
-    signed char       (F_API *FSOUND_Stream_SetBufferSize)(int ms);      /* call this before opening streams, not after 
+    signed char       (F_API *FSOUND_Stream_SetBufferSize)(int ms);      /* call this before opening streams, not after */
     FSOUND_STREAM *   (F_API *FSOUND_Stream_Open)(const char *name_or_data, unsigned int mode, int offset, int length);
     FSOUND_STREAM *   (F_API *FSOUND_Stream_Create)(FSOUND_STREAMCALLBACK callback, int length, unsigned int mode, int samplerate, void *userdata);
     signed char       (F_API *FSOUND_Stream_Close)(FSOUND_STREAM *stream);
@@ -140,7 +139,7 @@ typedef struct
     signed char       (F_API *FSOUND_Stream_SetLoopPoints)(FSOUND_STREAM *stream, unsigned int loopstartpcm, unsigned int loopendpcm);
     signed char       (F_API *FSOUND_Stream_SetLoopCount)(FSOUND_STREAM *stream, int count);
     int               (F_API *FSOUND_Stream_GetOpenState)(FSOUND_STREAM *stream);
-    FSOUND_SAMPLE *   (F_API *FSOUND_Stream_GetSample)(FSOUND_STREAM *stream);   /* every stream contains a sample to playback on 
+    FSOUND_SAMPLE *   (F_API *FSOUND_Stream_GetSample)(FSOUND_STREAM *stream);   /* every stream contains a sample to playback on */
     FSOUND_DSPUNIT *  (F_API *FSOUND_Stream_CreateDSP)(FSOUND_STREAM *stream, FSOUND_DSPCALLBACK callback, int priority, void *userdata);
     signed char       (F_API *FSOUND_Stream_SetEndCallback)(FSOUND_STREAM *stream, FSOUND_STREAMCALLBACK callback, void *userdata);
     signed char       (F_API *FSOUND_Stream_SetSyncCallback)(FSOUND_STREAM *stream, FSOUND_STREAMCALLBACK callback, void *userdata);
@@ -188,9 +187,9 @@ typedef struct
     FSOUND_DSPUNIT *  (F_API *FSOUND_DSP_GetClipAndCopyUnit)();
     signed char       (F_API *FSOUND_DSP_MixBuffers)(void *destbuffer, void *srcbuffer, int len, int freq, int vol, int pan, unsigned int mode);
     void              (F_API *FSOUND_DSP_ClearMixBuffer)();
-    int               (F_API *FSOUND_DSP_GetBufferLength)();      /* Length of each DSP update 
-    int               (F_API *FSOUND_DSP_GetBufferLengthTotal)(); /* Total buffer length due to FSOUND_SetBufferSize 
-    float *           (F_API *FSOUND_DSP_GetSpectrum)();          /* Array of 512 floats - call FSOUND_DSP_SetActive(FSOUND_DSP_GetFFTUnit(), TRUE)) for this to work. 
+    int               (F_API *FSOUND_DSP_GetBufferLength)();      /* Length of each DSP update */
+    int               (F_API *FSOUND_DSP_GetBufferLengthTotal)(); /* Total buffer length due to FSOUND_SetBufferSize */
+    float *           (F_API *FSOUND_DSP_GetSpectrum)();          /* Array of 512 floats - call FSOUND_DSP_SetActive(FSOUND_DSP_GetFFTUnit(), TRUE)) for this to work. */
     signed char       (F_API *FSOUND_Reverb_SetProperties)(const FSOUND_REVERB_PROPERTIES *prop);
     signed char       (F_API *FSOUND_Reverb_GetProperties)(FSOUND_REVERB_PROPERTIES *prop);
     signed char       (F_API *FSOUND_Reverb_SetChannelProperties)(int channel, const FSOUND_REVERB_CHANNELPROPERTIES *prop);
@@ -216,7 +215,7 @@ typedef struct
     signed char       (F_API *FMUSIC_SetSample)(FMUSIC_MODULE *mod, int sampno, FSOUND_SAMPLE *sptr);
     signed char       (F_API *FMUSIC_SetUserData)(FMUSIC_MODULE *mod, void *userdata);
     signed char       (F_API *FMUSIC_OptimizeChannels)(FMUSIC_MODULE *mod, int maxchannels, int minvolume);
-    signed char       (F_API *FMUSIC_SetReverb)(signed char reverb);             /* MIDI only 
+    signed char       (F_API *FMUSIC_SetReverb)(signed char reverb);             /* MIDI only */
     signed char       (F_API *FMUSIC_SetLooping)(FMUSIC_MODULE *mod, signed char looping);
     signed char       (F_API *FMUSIC_SetOrder)(FMUSIC_MODULE *mod, int order);
     signed char       (F_API *FMUSIC_SetPaused)(FMUSIC_MODULE *mod, signed char pause);
@@ -579,6 +578,5 @@ static void FMOD_FreeInstance(FMOD_INSTANCE *instance)
         free(instance);
     }
 }
-*/
 
 #endif

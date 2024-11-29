@@ -20,12 +20,6 @@
 ///	with low latency and low processor overhead.
 #include "../doomdef.h"
 
-#ifdef FMODSOUND
-
-#undef FMODSOUND
-
-#endif
-
 #ifdef _WINDOWS
 
 #include "win_main.h"
@@ -50,6 +44,13 @@
 
 #include "mid2strm.h"
 
+// REMOVE PNG
+#ifdef HAVE_PNG
+
+#undef HAVE_PNG
+
+#endif
+
 #ifdef HW3SOUND
 #include "../hardware/hw3dsdrv.h"
 #include "../hardware/hw3sound.h"
@@ -70,9 +71,9 @@
 #include "../../tools/fmoddyn.h"
 #include <FMOD/fmod_errors.h>
 #else
-//#include <fmod.h>
+#include <fmod.h>
 #include "../../tools/fmoddyn.h"
-//#include <fmod_errors.h>
+#include <fmod_errors.h>
 #endif
 #define FMODMEMORY
 #endif

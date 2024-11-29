@@ -674,6 +674,13 @@ void HWR_DrawFill(INT32 x, INT32 y, INT32 w, INT32 h, INT32 color)
 		PF_Modulated|PF_NoTexture|PF_NoDepthTest);
 }
 
+// REMOVE PNG
+#ifdef HAVE_PNG
+
+#undef HAVE_PNG
+
+#endif
+
 #ifdef HAVE_PNG
 
 #ifndef _MSC_VER
@@ -690,7 +697,7 @@ void HWR_DrawFill(INT32 x, INT32 y, INT32 w, INT32 h, INT32 color)
 #define _FILE_OFFSET_BITS 0
 #endif
 
- //#include "png.h"
+ #include "png.h"
  #ifdef PNG_WRITE_SUPPORTED
   #define USE_PNG // PNG is only used if write is supported (see ../m_misc.c)
  #endif

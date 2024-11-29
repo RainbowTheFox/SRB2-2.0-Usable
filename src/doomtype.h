@@ -104,9 +104,9 @@ typedef long ssize_t;
 #if defined (_MSC_VER) || defined (__OS2__)
 	// Microsoft VisualC++
 #ifdef _MSC_VER
-	#define _snprintf                __snprintf
+	#define _snprintf                _snprintf
 #if (_MSC_VER <= 1200)
-	#define vsnprintf               _vsnprintf
+	#define _vsnprintf               _vsnprintf
 #endif
 #endif
 	#define strncasecmp             strnicmp
